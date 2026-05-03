@@ -22,7 +22,7 @@ Documentation changes do not need a build — they're plain Markdown. There is n
 
 Three parallel doc trees under `docs/`, each mirroring a layer of the original codebase:
 
-- `docs/forms/` — one Markdown file per `.frm` form (15 forms total), plus `README.md` (system overview + form catalog) and `UI-FLOW.md` (lifecycle phases + UX flow). `assets/UX-FLOW-DIAGRAM.svg` is the rendered diagram.
+- `docs/forms/` — one Markdown file per `.frm` form (16 forms total), plus `README.md` (system overview + form catalog) and `UI-FLOW.md` (lifecycle phases + UX flow). `assets/UX-FLOW-DIAGRAM.svg` is the rendered diagram. Note: `DIALOG-FORM.md` (covering `frmDialog`, the idle-logout warning) was added after the forms `README.md` and `UI-FLOW.md` were written, so those overview files don't yet list it in their catalogs — worth folding in if either is revised.
 - `docs/modules/` — one file per `.bas` module (7 modules), plus `DATA-FLOW-DIAGRAM.md` (layer-cake architecture write-up) and `assets/DATA-FLOW-DIAGRAM.svg`.
 - `docs/project/` — files describing the build/packaging artifacts (`PROJECT-VBP.md`, `RES-FILE.md`, `VBW-FILE.md`, `MANIFEST-FILE.md`).
 
